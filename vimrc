@@ -24,6 +24,7 @@ set foldenable
 set foldlevelstart=10
 set foldnestmax=10
 nnoremap <space> za
+let mapleader=","
 set foldmethod=indent
 
 let g:ctrlp_match_window = 'bottom,order:ttb'
@@ -32,7 +33,7 @@ let g:ctrlp_working_path_mode = 0
 let g:airline_powerline_fonts = 1
 
 set background=dark
-"disable backup
+
 set nobackup
 set nowb
 set noswapfile
@@ -42,6 +43,6 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
-set guioptions-=T 
+set guioptions-=T
 nmap \e :NERDTreeToggle<CR>
-call pathogen#infect() 
+call pathogen#infect()
