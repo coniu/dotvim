@@ -30,7 +30,7 @@ set foldmethod=indent
 let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
-let g:airline_powerline_fonts = 1
+""let g:airline_powerline_fonts = 1
 
 set background=dark
 
@@ -38,11 +38,10 @@ set nobackup
 set nowb
 set noswapfile
 
-
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 set guioptions-=T
-nmap \e :NERDTreeToggle<CR>
+nmap <leader>e :NERDTreeToggle<CR>
 call pathogen#infect()
